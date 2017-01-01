@@ -1,19 +1,25 @@
 {
     "name": "ekandreas/underlag",
+    "version": "0.1",
     "description": "Underlag, a laravel project",
     "keywords": ["underlag", "framework", "laravel"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=7",
-        "laravel/framework": "5.3.*"
+        "laravel/framework": "5.3.*",
+        "mailgun/mailgun-php": "^2.1",
+        "php-http/curl-client": "^1.6",
+        "guzzlehttp/psr7": "^1.3",
+        "jenssegers/mongodb": "^3.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~5.0",
         "symfony/css-selector": "3.1.*",
-        "symfony/dom-crawler": "3.1.*"
+        "symfony/dom-crawler": "3.1.*",
+        "laravel/homestead": "^4.0"
     },
     "autoload": {
         "classmap": [
