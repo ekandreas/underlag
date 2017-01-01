@@ -1,5 +1,6 @@
 {
     "name": "ekandreas/underlag",
+    "version": "0.1",
     "description": "Underlag, a laravel project",
     "keywords": ["underlag", "framework", "laravel"],
     "license": "MIT",
