@@ -13,6 +13,11 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::post('/inbox/catch-all', function (Request $request) {
+    $inboxController = new \App\Http\Controllers\InboxController();
+    return $inboxController->CatchAll($request);
+});
+
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
